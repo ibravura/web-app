@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Susan Learning Releases Nexus Repository</name>
-	      <url>http://44.204.83.189:8081/repository/bili-release/</url>
+	      <url>http://34.238.116.233:8081/repository/bili-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Susan Learning Snapshot Nexus Repository </name>
-	      <url>http://44.204.83.189:8081/repository/bili-snapshot/</url>
+	      <url>http://34.238.116.233:8081/repository/bili-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
