@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.87.216.32:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.86.78:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Susan Learning Releases Nexus Repository</name>
-	      <url>http://18.212.73.164:8081/repository/bili-release/</url>
+	      <url>http://172.31.83.224:8081/repository/bili-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Susan Learning Snapshot Nexus Repository </name>
-	      <url>http://18.212.73.164:8081/repository/bili-snapshot/</url>
+	      <url>http://172.31.83.224:8081/repository/bili-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
