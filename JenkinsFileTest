@@ -3,6 +3,9 @@ pipeline{
   tools {
     maven 'maven3.90'
   }
+  options { 
+  timeout(time: 1, unit:"DAY")
+  }
   stages {
     stage('Cloning'){
       steps {
